@@ -21,8 +21,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories
           config_timezone: Asia/Seoul
-          plugin_gists: yes
           plugin_people: yes
-          plugin_people_limit: 24
+          plugin_people_limit: 100
           plugin_people_size: 28
           plugin_people_types: followers, following
